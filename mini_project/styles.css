@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images5.alphacoders.com/132/1327980.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: center;
+}
+
+#notes-heading {
+    font-family: 'Pacifico';
+    font-size: 48px;
+    color: #e2f8fd; /* Choose your desired text color */
+    text-align: center;
+    margin-top: 20px;
+}
+.add-button {
+    background-color: #e7769a;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.navbar {
+    background-color: #466d9f;
+    width: 40%;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

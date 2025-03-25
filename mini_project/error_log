@@ -1,0 +1,550 @@
+[04-Jan-2024 17:14:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[04-Jan-2024 17:19:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[04-Jan-2024 17:29:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[04-Jan-2024 17:36:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[04-Jan-2024 17:39:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[04-Jan-2024 17:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/niagaped/public_html/munchkin/app/libraries/Database.php:28
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/models/Profile.php(18): Database->query('SELECT username...')
+#1 /home/niagaped/public_html/munchkin/app/controllers/Profiles.php(20): Profile->getProfileUsername(1)
+#2 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Profiles->index('index.php')
+#3 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#4 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#5 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 28
+[04-Jan-2024 17:54:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/niagaped/public_html/munchkin/app/libraries/Database.php:28
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/models/Profile.php(18): Database->query('SELECT username...')
+#1 /home/niagaped/public_html/munchkin/app/controllers/Profiles.php(20): Profile->getProfileUsername(1)
+#2 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Profiles->index('index.php')
+#3 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#4 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#5 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 28
+[04-Jan-2024 17:54:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/niagaped/public_html/munchkin/app/libraries/Database.php:28
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/models/Activity.php(11): Database->query('SELECT * FROM a...')
+#1 /home/niagaped/public_html/munchkin/app/controllers/Activities.php(9): Activity->manageAllActivities()
+#2 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Activities->index()
+#3 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#4 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#5 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 28
+[04-Jan-2024 17:55:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/niagaped/public_html/munchkin/app/libraries/Database.php:28
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/models/Activity.php(11): Database->query('SELECT * FROM a...')
+#1 /home/niagaped/public_html/munchkin/app/controllers/Activities.php(9): Activity->manageAllActivities()
+#2 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Activities->index()
+#3 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#4 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#5 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 28
+[04-Jan-2024 17:56:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/niagaped/public_html/munchkin/app/libraries/Database.php:28
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/models/Profile.php(18): Database->query('SELECT username...')
+#1 /home/niagaped/public_html/munchkin/app/controllers/Profiles.php(20): Profile->getProfileUsername(1)
+#2 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Profiles->index('index.php')
+#3 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#4 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#5 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 28
+[04-Jan-2024 18:34:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function notLoggedIn() in /home/niagaped/public_html/munchkin/app/views/includes/head_metronic.php:3
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/views/index.php(2): require()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#2 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(12): Controller->view('index', Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/views/includes/head_metronic.php on line 3
+[04-Jan-2024 18:35:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[04-Jan-2024 18:36:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(171): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[07-Jan-2024 03:32:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/Activity.php(27): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Activities.php(41): Activity->addActivity(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Activities->create()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 06:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 06:52:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:17:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:17:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:17:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:17:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:17:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:17:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:17:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:17:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:17:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:17:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:17:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:17:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:25:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:25:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:25:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:25:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'niagaped_munchkin.registered_events' doesn't exist in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/views/index.php(66): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/views/index.php(127): Dashboard->getCounts()
+#4 /home/niagaped/public_html/munchkin/app/libraries/Controller.php(14): require_once('/home/niagaped/...')
+#5 /home/niagaped/public_html/munchkin/app/controllers/Pages.php(31): Controller->view('index', Array)
+#6 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Pages->index('assets', 'media', 'misc', 'youthlogo.jpg')
+#7 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#8 /home/niagaped/public_html/munchki in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:29:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:29:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:29:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:30:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:30:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:31:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:33:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:33:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:38:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:39:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:39:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:39:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:39:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:39:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:48:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:48:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:48:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:49:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:50:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:50:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:50:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:50:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:51:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'st_image' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/User.php(107): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Users.php(98): User->getUserImage('')
+#4 /home/niagaped/public_html/munchkin/app/controllers/Users.php(72): Users->createUserSession(Object(stdClass))
+#5 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->login()
+#6 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#7 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#8 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:51:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:53:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:53:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:53:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'st_image' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/User.php(107): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Users.php(98): User->getUserImage('')
+#4 /home/niagaped/public_html/munchkin/app/controllers/Users.php(72): Users->createUserSession(Object(stdClass))
+#5 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->login()
+#6 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#7 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#8 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:53:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:53:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'st_image' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/User.php(107): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Users.php(98): User->getUserImage('')
+#4 /home/niagaped/public_html/munchkin/app/controllers/Users.php(72): Users->createUserSession(Object(stdClass))
+#5 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->login()
+#6 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#7 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#8 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:54:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:54:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:54:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'st_image' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/User.php(107): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Users.php(98): User->getUserImage('')
+#4 /home/niagaped/public_html/munchkin/app/controllers/Users.php(72): Users->createUserSession(Object(stdClass))
+#5 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->login()
+#6 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#7 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#8 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:54:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:54:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:55:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:56:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users.users_id' in 'on clause' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(56): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/Activity.php(74): Database->resultSet()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Activities.php(20): Activity->getRegistrantsByActivityId('69')
+#4 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Activities->index()
+#5 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#6 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#7 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 07:56:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:56:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 07:56:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:03:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:03:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:03:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:07:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:08:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:20:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:20:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:20:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:20:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:21:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(62): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/User.php(116): Database->single()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Users.php(99): User->getUserFullname('')
+#4 /home/niagaped/public_html/munchkin/app/controllers/Users.php(72): Users->createUserSession(Object(stdClass))
+#5 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->login()
+#6 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#7 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#8 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:21:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:25:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:25:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:30:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:31:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:34:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:34:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:35:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:35:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users.users_id' in 'on clause' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Database.php(56): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/models/Activity.php(74): Database->resultSet()
+#3 /home/niagaped/public_html/munchkin/app/controllers/Activities.php(20): Activity->getRegistrantsByActivityId('69')
+#4 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Activities->index()
+#5 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#6 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#7 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 08:35:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:35:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:35:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:35:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:35:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:35:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:35:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:35:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:35:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:51:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Feedback::getactivitytitle(), 0 passed in /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php on line 14 and exactly 1 expected in /home/niagaped/public_html/munchkin/app/models/Feedback.php:43
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/controllers/Feedbacks.php(14): Feedback->getactivitytitle()
+#1 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Feedbacks->index()
+#2 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#3 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#4 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/models/Feedback.php on line 43
+[15-Jan-2024 08:51:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:51:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:52:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 08:53:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'field list' in /home/niagaped/public_html/munchkin/app/libraries/Database.php:51
+Stack trace:
+#0 /home/niagaped/public_html/munchkin/app/libraries/Database.php(51): PDOStatement->execute()
+#1 /home/niagaped/public_html/munchkin/app/models/User.php(38): Database->execute()
+#2 /home/niagaped/public_html/munchkin/app/controllers/Users.php(239): User->register(Array)
+#3 /home/niagaped/public_html/munchkin/app/libraries/Core.php(47): Users->register()
+#4 /home/niagaped/public_html/munchkin/app/require.php(12): Core->__construct()
+#5 /home/niagaped/public_html/munchkin/public/index.php(2): require_once('/home/niagaped/...')
+#6 {main}
+  thrown in /home/niagaped/public_html/munchkin/app/libraries/Database.php on line 51
+[15-Jan-2024 09:00:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 09:00:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 09:00:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 09:00:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
+[15-Jan-2024 09:01:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/niagaped/public_html/munchkin/app/views/includes/navbar.php on line 3
